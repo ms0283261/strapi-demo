@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "wwws",
+  "info": {
+    "singularName": "www",
+    "pluralName": "wwws",
+    "displayName": "www",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "qwe": {
+      "type": "string"
+    },
+    "ttt": {
+      "type": "uid"
+    },
+    "qwer": {
+      "type": "enumeration",
+      "enum": [
+        "q"
+      ]
+    }
+  }
+}

@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "arts",
+  "collectionName": "headers",
   "info": {
-    "singularName": "art",
-    "pluralName": "arts",
-    "displayName": "art",
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "Header",
     "description": ""
   },
   "options": {
@@ -12,11 +12,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "Title": {
       "type": "string"
     },
-    "number": {
-      "type": "integer"
+    "herf": {
+      "type": "string",
+      "default": "#"
     }
   }
 }

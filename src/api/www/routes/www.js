@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * art router.
+ * www router.
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::art.art');
+module.exports = createCoreRouter('api::www.www');
